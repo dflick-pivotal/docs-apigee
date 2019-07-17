@@ -37,9 +37,8 @@ To push a sample application to PCF, do the following:
     - name: sample-api 
       memory: 128M 
       instances: 1 
-      host: sample-api-apigee 
+      random-route: true
       path: . 
-      buildpack: nodejs_buildpack
     ```
     
 1. Save the edited file.
